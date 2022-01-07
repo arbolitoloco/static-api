@@ -1,0 +1,5 @@
+{
+  "name": "Static Open API Kit CI",
+  "description": "Static Open API Kit CI starter workflow to update JSON files served",
+  "categories": ["Python"]
+}

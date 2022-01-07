@@ -1,0 +1,27 @@
+{
+    "data": {
+        "path": "terms",
+        "id": "testing",
+        "tooltip": {
+            "en": "A Test",
+            "es": "This is a test",
+            "pt": "Isso é um teste"
+        },
+        "resources": {
+            "dwc": {
+                "href": "",
+                "meta": {
+                    "name": "",
+                    "source": ""
+                }
+            },
+            "symbdocs": {
+                "href": "",
+                "meta": {
+                    "name": "",
+                    "source": ""
+                }
+            }
+        }
+    }
+}

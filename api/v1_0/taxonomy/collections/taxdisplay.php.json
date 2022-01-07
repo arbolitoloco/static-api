@@ -1,0 +1,27 @@
+{
+    "data": {
+        "path": "taxonomy/collections",
+        "id": "taxdisplay.php",
+        "tooltip": {
+            "en": "This page blabla",
+            "es": "",
+            "pt": "Essa página blabla"
+        },
+        "resources": {
+            "dwc": {
+                "href": "",
+                "meta": {
+                    "name": "",
+                    "source": ""
+                }
+            },
+            "symbdocs": {
+                "href": "",
+                "meta": {
+                    "name": "",
+                    "source": ""
+                }
+            }
+        }
+    }
+}

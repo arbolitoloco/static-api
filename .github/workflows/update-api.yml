@@ -13,16 +13,14 @@ jobs:
 
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner.
+        uses: actions/checkout@v2
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 #install the python needed
-      - name: execute py script # run the run.py to get the latest data
+          python-version: 3.8
+      - name: execute py script
         run: |
-          python ./example.py
-        #env:
-        #key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
+          python ./scripts/example-nested.py
       - name: commit created files and push
         run: |
           git config --global user.name "github-actions[bot]"
